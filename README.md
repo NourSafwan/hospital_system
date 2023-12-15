@@ -1,6 +1,6 @@
 # Hospital System
 
-###TABLE OF CONTENTS  
+### TABLE OF CONTENTS  
 
 1. INTRODUCTION 
 1. Maintain Basic Data 
@@ -14,7 +14,7 @@
 
  
 
-##1. INTRODUCTION 
+## 1. INTRODUCTION 
 The Hospital Management System is a comprehensive database system
 project that aims to streamline and optimize the management of doctors,
 patients, and diagnosis information within a healthcare facility. This project is
@@ -23,12 +23,12 @@ retrieving, and analyzing data related to medical professionals, patients, and
 their diagnoses. 
 Technologies Used:
 The project utilizes the following technologies to achieve its objectives:
-###1. Relational Database Management System (RDBMS): The system employs
+1. Relational Database Management System (RDBMS): The system employs
 an RDBMS such as SQL to store and manage the hospital's data
 efficiently. The relational model ensures data integrity, consistency, and
 flexibility in managing complex relationships between doctors, patients,
 and diagnoses.
-###2. SQL: Structured Query Language (SQL) is used to define the database
+2. SQL: Structured Query Language (SQL) is used to define the database
 schema, perform data manipulation, and execute complex queries for
 retrieving and analyzing data. SQL provides a standardized and efficient
 way to interact with the database.
@@ -37,7 +37,7 @@ language such as Python or Java to implement the user interface,
 business logic, and database interactions. This enables the creation of a
 user-friendly interface and seamless integration with the database.
 
-###Conclusion:
+### Conclusion:
 The Hospital Management System Database System project aims to
 revolutionize the way hospitals manage their operations and patient
 information. By leveraging a well-designed database schema and
@@ -49,35 +49,35 @@ facility.
  
 
  
-###Functional View 
-###1. Maintain Basic Data
+### Functional View 
+1. Maintain Basic Data
 • Doctor (Docid(pk) , DocName , Docgen , Experience , Licensce) 
 • Patient (PId(pk) , PName , PAddress , PAge , PPhone , pGen ,
 BloodGroup , MajorDisease , DocId) 
 • Diagnosis (Did(pk) , PatientId , PatientName , Symptoms ,
 DiagnosticTest , Medicines , DocId) 
  
-##2. Issue query subSystems 
+## 2. Issue query subSystems 
 • Search by Patient ID
 • Search by Doctor ID
 • Search by Diagnosis ID 
-##3. Perform Transactions 
+## 3. Perform Transactions 
 • Add, delete, and update (all entities).
  
  
-##4. Entity Relationship Diagram  
+## 4. Entity Relationship Diagram  
  
 ![image](https://github.com/NourSafwan/hospital_system/assets/95777628/9b93a135-0368-43ab-9b03-a0371c5701f0)
 
  
-##5. Mapping 
+## 5. Mapping 
 
  
 ![image](https://github.com/NourSafwan/hospital_system/assets/95777628/4753b41e-282b-4831-8187-6c3398017b92)
  
  
  
-##6. Database Relationships and Tables with Sample Data 
+## 6. Database Relationships and Tables with Sample Data 
 
  
 
@@ -85,7 +85,7 @@ DiagnosticTest , Medicines , DocId)
 
 
 
-##7. Input and Output interface 
+## 7. Input and Output interface 
 
 ![image](https://github.com/NourSafwan/hospital_system/assets/95777628/01c919ed-9878-4c17-937e-1b721626183a)
 
@@ -116,7 +116,7 @@ Diagnosis Page for Diagnosis register 1
 Action Bottoms  1 
  
  
-##8. Queries
+## 8. Queries
 
 
 ![image](https://github.com/NourSafwan/hospital_system/assets/95777628/023d4819-52d4-4f18-bbb4-e3f325156371)
